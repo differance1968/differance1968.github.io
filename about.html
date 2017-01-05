@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="プロフィール">
+  <title>About</title>
+  <!-- BootstrapのCSS読み込み -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- jQuery読み込み -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- BootstrapのJS読み込み -->
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", yuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+        font-size: 14px;
+        background-color:#ddd;
+      }
+      
+      header{
+        background-image:url("IMG_4371.jpg");
+        background-position:center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom:100px;
+      }
+      
+      #logo {
+        padding: 20px 0;
+        text-align: center;
+      }
+
+     
+     #logo img{
+        max-width: 120px;
+        border: 5px solid #fff;
+        border-radius:5px;
+      }
+      
+      #logo h3{
+        letter-spacing: 0.15em;
+        color:#fff;
+        text-shadow:1px 1px 0px #000
+      }
+     
+      .navbar {
+        border-radius: 0; 
+      }
+      
+      .container{
+        max-width:800px;
+        margin:-100px auto 0;
+        background-color: #fff;
+      }
+      
+      section{
+        padding:20px 10px;
+      }
+      
+      section h3{
+        padding:10px 0 20px 0;
+        text-align:center;
+        letter-spacing:0.15em;
+        font-weight:bold;
+      }
+      
+      section h4{
+        font-weight:bold;
+      }
+      
+      footer {
+        padding:10px 0;
+        font-size:93%;
+        background-color: #ccc;
+        color:#666;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Seiji Shimatani</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Top</a></li>
+              <li class="active"><a href="about.html">About</a></li>
+              <li class="dropdown">
+                <a href="works.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  Works
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="message.html">メッセージボード</a></li>
+                  <li><a href="twitter.html">Twitterクローン</a></li>
+                  <li><a href="mono.html">モノリスト</a></li>
+                  <li><a href="original.html">オリジナル</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div id="logo">
+      <img src="IMG_0577.jpg">
+      <h3>島谷　征志</h3>
+    </div>
+  </header>
+    <div class="container">
+    <section>
+      <h3>About</h3>
+      <h4>自己紹介</h4>
+      <p>島谷征志</p>
+      <p>東京都出身。中高一貫校の英語教師。</p>
+      <p>生徒が自宅で使える復習用ウェブサイトの作成を目指しています。</p>
+        <h4>リンク</h4>
+        <ul>
+          <li><a href="https://github.com/differance1968" target="_blank">GitHub</a></li>
+          <li><a href="https://www.facebook.com/tarokirameki" target="_blank">Facebook</a></li>
+          <li><a href="https://twitter.com/tarokirameki" target="_blank">Twitter</a></li>
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2015 Seiji Shimatani.</p>
+      </footer>
+    </div>
+  </body>
+</html>
